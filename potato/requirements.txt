@@ -1,0 +1,6 @@
+youtube-dl
+Flask==0.10.1
+rq==0.5.6
+feedgen==0.3.2
+pymongo==2.8
+redis==2.10.3
