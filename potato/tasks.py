@@ -28,7 +28,7 @@ def setup_feed():
   fg.id('https://jdelman.me/potato')
   fg.author(name='Potato', email='joshdelman@gmail.com')
   fg.link(href='https://jdelman.me/potato', rel='alternate')
-  fg.logo('https://jdelman.me/potato/static/potato.jpg')
+  fg.logo('https://jdelman.me/static/potato.jpg')
   fg.title("Potato - Josh's Saved Videos")
   fg.subtitle("Automatically generated RSS.")
 

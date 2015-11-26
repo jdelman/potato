@@ -9,6 +9,7 @@ from rq import Queue
 app = Flask(__name__)
 
 config_name = os.environ.get('POTATO_CONFIG', 'Local')
+print 'using config: %s' % config_name
 app.config.from_object('potato.config.%s' % config_name)
 
 from potato.tasks import add_video, make_feed_from_db
